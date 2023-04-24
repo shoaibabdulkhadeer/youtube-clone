@@ -1,0 +1,27 @@
+.categories {
+    position: sticky;
+    top: 60px;
+    background-color: white;
+    padding: 5px;
+}
+
+
+.categories ul li{
+    display: inline;
+    margin: 0px 7px;
+    
+}
+
+.categories ul li a {
+    text-decoration: none;
+    background-color: rgb(236, 234, 234);
+  color: black;
+  padding: 5px;
+   border-radius: 10%;
+   margin-right: 2px;
+  
+}
+
+.categories ul li a:hover {
+    background-color: rgb(203, 202, 202);
+}

@@ -1,0 +1,35 @@
+.sidebarlinks{
+   top: 90px;
+   position: sticky;
+}
+
+
+.sidebarlinks ul li{
+   list-style: none;
+   text-decoration: none;
+   margin: 10px 0px;
+   padding: 0px;
+   cursor: pointer;
+   width: 180px; 
+}
+
+.sidebarlinks ul li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+     gap: 10px;
+     text-align: center;
+     margin: 25px 0px 0px 25px;
+     padding: 5px;  
+}
+
+.sidebarlinks ul{
+    padding: 0px 25px;
+}
+
+
+.sidebarlinks ul li:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 10%;  
+}

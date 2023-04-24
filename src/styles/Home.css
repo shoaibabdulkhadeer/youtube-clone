@@ -1,0 +1,91 @@
+.HomeV {
+   min-height: 1000px;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   /* display: grid; */
+   /* grid-template-columns: 300px 300px 300px 300px ; */
+   text-align: center;
+   padding-left: 45px;
+   margin:18px 0px;
+   /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+}
+
+.details {
+   margin: 30px 40px;
+   height: 240px;
+   width: 320px;
+   display: flex;
+   align-items: left;
+   text-align: left;
+   flex-direction: column;
+   font-weight: 700;
+   gap: 2px;
+   cursor: pointer;
+}
+
+.details img {
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+   transition: 0.6s;
+}
+
+.details img:hover {
+   transform: scale(1.09);
+}
+
+.des {
+   margin: 2px;
+   width: 290px;
+   text-align: left;
+}
+
+.desNname {
+   display: flex;
+}
+
+.channelName {
+   margin: 0px;
+   padding: 0px;
+   font-size: 13px;
+   color: rgb(82, 82, 82);
+   text-align: left;
+   width: 290px;
+}
+
+.uploadTime {
+   display: flex;
+   margin: 0px;
+   padding: 0px;
+   font-size: 13px;
+   color: rgb(113, 113, 113);
+   gap: 5px;
+   text-align: left;
+   width: 280px;
+
+}
+
+.uploadTime p {
+   margin: 0px;
+}
+
+/* .uploadTime p {
+   margin-right: 10px;
+} */
+
+
+.chanNdislike {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.but {
+   cursor: pointer;
+   margin: 0px;
+   font-size: 12px;
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   font-weight: 700;
+   font-family: cursive;
+   border-radius: 15px;
+}
