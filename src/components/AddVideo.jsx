@@ -20,7 +20,7 @@ const AddVideo = () => {
       views: views.current.value,
       time: time.current.value
      }
-     fetch("http://localhost:4000/video",{
+      fetch("http://localhost:4000/video",{
       method:'POST',
       headers:{"Content-Type":'application/json'},
       body:JSON.stringify(data)
